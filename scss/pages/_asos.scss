@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fbf8ec;
+  font-family: "Inter", sans-serif;
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: var(--Yellow, #ffd050);
+}
+.oll {
+  color: var(--Black, #232536);
+
+  /* Heading H1 */
+  font-family: Sen;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -2px;
+  padding-bottom: 32px;
+}
+.post {
+  padding-top: 32px;
+}

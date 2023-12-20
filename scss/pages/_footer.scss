@@ -1,0 +1,31 @@
+footer {
+  background: #232536;
+  a {
+    color: #fff;
+  }
+
+  .container {
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 54px 0;
+      .content-ong {
+        p {
+          color: var(--Light, #fff);
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 175% */
+          opacity: 0.7;
+        }
+      }
+      .chap {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+      }
+    }
+  }
+}
